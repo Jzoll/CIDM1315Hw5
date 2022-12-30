@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="chatScreen">
+        <h1>Hi, I'm Nga's Virtual Assistant</h1>
+        <h2>How can I help you? Please type your quesion below then push the enter key.</h2>
+        <div class="input">
+            <input type="text" id="userInput" placeholder="Type your question"
+                onkeydown="if(event.keyCode ==13){ talk()}">
+        </div>
+        <p id="chatMessage">Your answer will appear here..</p>
+    </div>
+</body>
+
+</html>
